@@ -34,23 +34,7 @@ describe('Frog', () => {
 
     assert.isTrue(colliding)
   })
-
-
-
-  it('should be able to move position on the canvas', () => {
-    let frog2 = new Frog(240, 470, 10, 10, 'cornflowerblue', 0, 0, 'White')
-    console.log(frog2);
-    const moved = frog2.changeDirection(frog2);
-    console.log(moved);
-
-
-
-
-
-
-    assert.isTrue(moved);
-
-  })
+  
 })
 
 
