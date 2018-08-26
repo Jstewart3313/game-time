@@ -16,6 +16,14 @@ body {
   right: 100px;
 }
 
+.lives {
+  color: #FFFFFF;
+  position: absolute;
+  right: 340px;
+  top: 200px;
+  font-size: 2em;
+}
+
 .game-title {
   height: 150px;
   background-color: black;
